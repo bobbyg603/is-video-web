@@ -1,19 +1,19 @@
 # is-video
 
-> Check if a filepath is a video file
+> Check if a filepath is a video file in a browser compatible fashion.
 
 
 ## Install
 
 ```
-$ npm install --save is-video
+$ npm install --save is-video-web
 ```
 
 
 ## Usage
 
 ```js
-var isVideo = require('is-video');
+var isVideo = require('is-video-web');
 
 isVideo('src/unicorn.mp4');
 //=> true
@@ -30,4 +30,4 @@ isVideo('src/unicorn.txt');
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Bobby Galli](http://bobbyg603.com) and [Sindre Sorhus](http://sindresorhus.com)
