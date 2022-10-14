@@ -1,5 +1,4 @@
 'use strict';
-var path = require('path');
 var videoExtensions = require('video-extensions');
 var exts = Object.create(null);
 
@@ -8,5 +7,5 @@ videoExtensions.forEach(function (el) {
 });
 
 module.exports = function (filepath) {
-	return path.extname(filepath).slice(1).toLowerCase() in exts;
+	return filepath.split('.').slice(-1)[0].toLowerCase() in exts;
 };
