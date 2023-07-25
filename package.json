@@ -1,15 +1,22 @@
 {
-  "name": "is-video",
-  "version": "1.0.1",
-  "description": "Check if a filepath is a video file",
+  "name": "is-video-web",
+  "version": "2.0.0",
+  "description": "Check if a filepath is a video file in a web browser",
   "license": "MIT",
-  "repository": "sindresorhus/is-video",
+  "repository": "https://github.com/bobbyg603/is-video-web",
   "type": "module",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Bobby Galli",
+    "email": "bobbyg603@gmail.com",
+    "url": "bobbyg603.com"
   },
+  "contributors": [
+    {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    }
+  ],
   "engines": {
     "node": ">=16"
   },
