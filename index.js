@@ -1,4 +1,4 @@
-import videoExtensions from 'video-extensions' assert { type: "json" };
+import videoExtensions from 'video-extensions-web';
 const exts = Object.create(null);
 
 videoExtensions.forEach(el => exts[el] = true);

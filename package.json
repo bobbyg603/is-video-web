@@ -1,6 +1,6 @@
 {
   "name": "is-video-web",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Check if a filepath is a video file in a web browser",
   "license": "MIT",
   "repository": "https://github.com/bobbyg603/is-video-web",
@@ -43,7 +43,7 @@
     "mkv"
   ],
   "dependencies": {
-    "video-extensions": "^1.0.0"
+    "video-extensions-web": "^2.0.0"
   },
   "devDependencies": {
     "ava": "^5.3.1"
